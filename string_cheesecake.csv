@@ -1,0 +1,71 @@
+Key,화면,string_kr,string_en
+home.title,Home,리오의 생일이 다가왔어!,Leo Day is coming up!
+home.description,Home,"8월 22일은 리오의 스물 다섯 번째 생일🎂
+생일 선물로 치즈케이크를 만들어 보자!","August 22 is Leo’s 25th birthday! 🎂
+Let’s make him a cheesecake for his birthday!"
+home.start,Home,✨ 시작하기 ✨,✨ Start ✨
+dough.title,반죽,반죽에 필요한 재료를 넣어보자!,Let’s add the ingredients for the batter!
+dough.complete,반죽,반죽 완성!,Batter’s ready!
+dough.ingredient.creamcheese,반죽 재료,크림치즈,Cream Cheese
+dough.ingredient.sugar,반죽 재료,설탕,Sugar
+dough.ingredient.egg,반죽 재료,달걀,Egg
+dough.ingredient.flour,반죽 재료,밀가루,Flour
+dough.ingredient.vanilla,반죽 재료,바닐라향,Vanilla Extract
+dough.ingredient.lemon,반죽 재료,레몬즙,Lemon Juice
+dough.ingredient.sourcream,반죽 재료,사워크림,Sour Cream
+dough.ingredient.butter,반죽 재료,버터,Butter
+dough.ingredient.chili,반죽 재료,고춧가루,Chili Powder
+dough.ingredient.garlic,반죽 재료,다진마늘,Garlic
+dough.ingredient.soysauce,반죽 재료,간장,Soy Sauce
+dough.ingredient.ketchup,반죽 재료,케찹,Ketchup
+meringue.title,머랭,거품기를 빠른 속도로 빙글빙글 돌리자!,Whisk quickly in circles!
+meringue.notice,머랭,시간 안에 머랭을 만들지 못하면 실패!,Whip the meringue in time or you’ll fail!
+mold.title,틀 선택,케이크 틀을 골라보자!,Let’s pick a cake pan!
+mold.round,틀,원형 틀,Round Pan
+mold.heart,틀,하트 틀,Heart Pan
+mold.cat,틀,고양이 틀,Cat Pan
+mold.confirm,틀 선택,이 틀로 할래!,Confirm!
+oven.temperature.title,오븐,몇 도로 구워야 할까?,What temperature should I use?
+oven.timing.title,오븐,타이밍을 잘 맞춰서 케이크를 꺼내야 해!,Time it right and take it out!
+oven.stop,오븐,정지!,Stop!
+topping.title,토핑,흐음… 리오가 무슨 토핑을 좋아하려나?,Hmm… I wonder what Leo likes on his cake.
+topping.strawberry,토핑,딸기,Strawberry
+topping.mango,토핑,망고,Mango
+topping.cherry,토핑,체리,Cherry
+topping.lotus,토핑,로투스,Lotus
+topping.confirm,토핑,토핑 완성!,Topping’s ready!
+deco.title,장식,마지막으로 리오에게 하고 싶은 말을 담는 거야.,Finally… a little message for Leo.
+deco.message.1,장식 메시지,생일 축하해! 🎉☃️,Happy Birthday!☃️
+deco.message.2,장식 메시지,오늘도 고마워 🌌,Thx as always!🌌
+deco.message.3,장식 메시지,사랑해~❤️,Love ya~ ❤️
+deco.message.4,장식 메시지,건강히 오래오래⭐,Stay healthy!⭐
+deco.message.5,장식 메시지,늘 행복하자!🍀,Be happy!🍀🦎
+deco.confirm,장식,장식 완료!,Complete!
+result.success.badge,결과,완벽해!,Perfect!
+result.fail.badge,결과,뭔가 아쉬워,Failed!
+result.success.speech.1,결과 성공,"우와... 이거 완전 내 취향이야! 🥹
+영감이 떠오르는데 치크케이크라는 노래 낼까?","“Wow… this is so me! 🥹
+I just got an idea… Should I release a song called “Cheek Cake”?"
+result.success.speech.2,결과 성공,반죽에 토핑까지 딱 내가 좋아하는 치즈케이크잖아!,"From the batter to the toppings, this is exactly the kind of cheesecake I love!"
+result.success.speech.3,결과 성공,"고마워! 사실 아침에 일어나서 치즈케이크를 
+안 먹으면 일상생활이 불가능할 정도야😁","“Honestly, if I don’t have cheesecake for breakfast, I can barely function.”"
+result.fail.doughAndTopping.speech,결과 실패,"어... 반죽 맛이 좀 이상한데? 
+그리고 딸기는... 줄게 나 딸기 안먹어ㅋㅋ","“Uh… the batter tastes a little weird. 
+And the strawberry… you can have it. I don’t eat strawberries, lol.”"
+result.fail.doughAndTopping.description,결과 실패,"반죽과 토핑, 둘 다 아쉬웠던 것 같아.",“The batter and the topping both feel like they’re missing something.”
+result.fail.dough.speech,결과 실패,음... 이 반죽 맛이 좀 낯선데?,“Hmm… there’s something a little strange about this batter.”
+result.fail.dough.description,결과 실패,정성은 느껴지지만 반죽에서 아쉬움이 남았나 봐.,"“I can tell you put a lot of love into it, but the batter could’ve been better.”"
+result.fail.topping.speech,결과 실패,리오깅 입맛 어려워 딸기 안머거 🍓😥,Baby Leo doesn’t eat strawberries. 🍓😥
+result.fail.topping.description,결과 실패,앗! 토핑을 잘못 선택했어. 다른 건 다 좋았는데!,"“Ah! I picked the wrong topping. Everything else was perfect, though!”"
+result.closing.success,결과,선물 대성공! 리오와 케이크를 맛있게 나누어 먹었다!,"A huge success! I shared the cake with Leo, and we both loved it!"
+result.closing.fail,결과,그래도 착한 리오는 케이크를 맛있게 먹어주었다!,"Even so, sweet Leo still enjoyed the cake!"
+result.retry,결과,다시 만들기,Make Another
+gameover.fail,게임오버,실패,Failed!
+gameover.meringue,게임오버,팔이 빠질 것처럼 저었는데도... 머랭이 다 풀어져버렸어. 😵,Even though my arm was about to fall off… the meringue completely collapsed. 😵
+gameover.ovenTemperature,게임오버,온도를 잘못 맞춰서 케이크가 새까맣게 타버렸어! 🔥,"I set the temperature wrong, and the cake came out completely burnt! 🔥"
+gameover.ovenTemperature.description,게임오버,주방에 연기 냄새가 한가득이야...,The kitchen is filled with smoke…
+gameover.ovenTiming,게임오버,케이크가 다 타버렸어ㅠㅠ ⏰,The cake is completely burnt… sob. ⏰
+gameover.ovenTiming.description,게임오버,오븐 앞에서 좀 더 집중해야 했나 봐.,I guess I should’ve paid more attention while the cake was in the oven.
+gameover.retry,게임오버,처음부터 다시,Start Over
+alert.dough.empty,알림,재료를 하나 이상 선택해야 해!,You have to choose at least one ingredient!
+alert.topping.empty,알림,토핑을 하나 선택해야 해!,You have to choose at least one topping!
