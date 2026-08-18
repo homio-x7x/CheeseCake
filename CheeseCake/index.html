@@ -124,6 +124,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     color:#fff; font-family:'Jua', sans-serif; font-size:50px;
@@ -144,6 +145,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     padding:8px 3px 6px;
@@ -194,6 +196,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     cursor:pointer; transition:transform .12s;
@@ -229,6 +232,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     color:#fff; font-family:'Jua', sans-serif; font-size:40px;
@@ -266,6 +270,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     cursor:pointer; transition:transform .12s;
@@ -288,6 +293,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     color:#fff; font-family:'Jua', sans-serif; font-size:40px;
@@ -309,6 +315,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     cursor:pointer; transition:transform .12s;
@@ -330,6 +337,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     color:#fff; font-family:'Jua', sans-serif; font-size:40px;
@@ -349,6 +357,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     cursor:pointer; transition:transform .12s;
@@ -369,6 +378,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     color:#fff; font-family:'Jua', sans-serif; font-size:40px;
@@ -399,7 +409,7 @@
   /* 원형 드래그 젓기 (bowl-visual 위에 whisk.png를 겹쳐서 사용) */
   .stir-zone{
     position:absolute; left:45px; right:45px; top:0; bottom:0;
-    transform:translateY(-95px);
+    transform:translateY(-145px);
     z-index:4; touch-action:none; user-select:none; -webkit-user-select:none; display:none;
   }
   .stir-whisk{
@@ -518,6 +528,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     cursor:pointer; transition:transform .12s;
@@ -576,6 +587,7 @@
     border-image-slice:var(--nineslice-corner) fill;
     border-image-width:var(--nineslice-screen-corner);
     border-image-repeat:stretch;
+    image-rendering:-webkit-optimize-contrast; image-rendering:-moz-crisp-edges; image-rendering:pixelated;
     background-clip:padding-box;
     border-radius:0;
     padding:10px 12px; font-size:14px; color:var(--brown-soft);
@@ -636,10 +648,6 @@
   .fade-target{ transition:opacity .4s ease, transform .4s ease; }
   .fade-target.hidden{ opacity:0; transform:translateY(8px); }
   .char-row{ display:flex; justify-content:center; height:136px; align-items:center; }
-  .char-emoji{ font-size:112px; display:inline-block; transform:translateX(97px); opacity:0; transition:transform .5s ease, opacity .5s ease; }
-  .char-emoji.enter{ transform:translateX(0); opacity:1; }
-  .char-emoji.bite{ animation:biteBounce .35s ease 2; }
-  @keyframes biteBounce{ 0%,100%{ transform:translateX(0) scale(1) rotate(0deg);} 50%{ transform:translateX(0) scale(1.18) rotate(-6deg);} }
   .home-title{ font-size:73px; margin-bottom:15px; font-family:'Jua', sans-serif; }
   .home-sub{ font-size:34px; color:var(--brown-soft); margin-bottom:49px; line-height:1.6; }
   .home-text-group{
@@ -751,7 +759,7 @@
       <p class="home-sub csv-text" data-string-key="home.description"></p>
     </div>
     <button class="home-touch-btn" id="home-touch-btn" type="button" onclick="enterHomeFromTouch()">Touch</button>
-    <button class="btn-primary home-start-btn csv-text" id="home-start-btn" data-string-key="home.start" onclick="sfx.click(); goTo('dough')" style="display:none;"></button>
+    <button class="btn-primary home-start-btn csv-text" id="home-start-btn" data-string-key="home.start" onclick="sfx.reward(); goTo('dough')" style="display:none;"></button>
     <button class="bgm-toggle" id="bgm-toggle" type="button" onclick="toggleBGM()" aria-label="BGM 끄기">♫</button>
     <button class="language-toggle" id="language-toggle" onclick="toggleLanguage()">Eng</button>
   </div>
@@ -828,7 +836,7 @@
   <div class="screen" id="screen-deco">
     <p class="dough-header-text csv-text" data-string-key="deco.title"></p>
     <div class="deco-option-list" id="message-row"></div>
-    <button class="deco-confirm-btn csv-text" data-string-key="deco.confirm" onclick="sfx.click(); showResult();"></button>
+    <button class="deco-confirm-btn csv-text" data-string-key="deco.confirm" onclick="sfx.confirm(); showResult();"></button>
   </div>
   <!-- RESULT -->
   <div class="screen" id="screen-result">
@@ -1179,6 +1187,35 @@ function playTone(freq, startOffset, duration, type, peakVolume){
 function playSequence(notes){
   notes.forEach(n=>{ playTone(n.freq, n.delay, n.duration, n.type, n.volume); });
 }
+/* 레시피 형식({f, time, jump}) 기반 단일 오실레이터 사운드.
+   jump:true 인 지점은 즉시 그 주파수로 점프(계단식), 없으면 이전 지점에서 부드럽게 글라이드.
+   재생시간 끝까지 부드러운 fade-out 적용. */
+function playFreqSequence(sequence, duration, type, peakVolume){
+  const ctx = getAudioCtx();
+  if(!ctx || !sequence.length) return;
+  peakVolume = peakVolume === undefined ? 0.16 : peakVolume;
+  const t0 = ctx.currentTime;
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  osc.type = type || 'sine';
+  sequence.forEach((step, i)=>{
+    const stepTime = t0 + (step.time || 0);
+    if(i === 0){
+      osc.frequency.setValueAtTime(step.f, stepTime);
+    } else if(step.jump){
+      osc.frequency.setValueAtTime(step.f, stepTime);
+    } else {
+      osc.frequency.linearRampToValueAtTime(step.f, stepTime);
+    }
+  });
+  gain.gain.setValueAtTime(0, t0);
+  gain.gain.linearRampToValueAtTime(peakVolume, t0 + 0.015);
+  gain.gain.setValueAtTime(peakVolume, t0 + Math.max(0.015, duration * 0.7));
+  gain.gain.exponentialRampToValueAtTime(0.0001, t0 + duration);
+  osc.connect(gain).connect(ctx.destination);
+  osc.start(t0);
+  osc.stop(t0 + duration + 0.05);
+}
 function playNoiseBurst(startOffset, duration, peakVolume, filterFreq){
   const ctx = getAudioCtx();
   if(!ctx) return;
@@ -1361,7 +1398,7 @@ function updateBGMToggleUI(){
 }
 
 function toggleBGM(){
-  sfx.click();
+  sfx.hover();
   initBGM();
   bgmEnabled = !bgmEnabled;
   updateBGMToggleUI();
@@ -1403,25 +1440,68 @@ function tryStartHomeBGM(){
 
 
 /* ---------- 효과음 ---------- */
+/* ===== 새 사운드 유틸 (envelope 기반, 기존 getAudioCtx 재사용) =====
+   기존 playTone/playSequence와는 별도 - 이름 충돌 방지를 위해 Env 접미사 사용 */
+function envGain(ctx, t0, attack, decay, sustainLevel, release, peak=0.3){
+  const g = ctx.createGain();
+  g.gain.setValueAtTime(0.0001, t0);
+  g.gain.exponentialRampToValueAtTime(peak, t0 + attack);
+  g.gain.exponentialRampToValueAtTime(Math.max(sustainLevel,0.0001), t0 + attack + decay);
+  g.gain.exponentialRampToValueAtTime(0.0001, t0 + attack + decay + release);
+  return g;
+}
+function playToneEnv(freq, dur, type='sine', opts={}){
+  const c = getAudioCtx();
+  if(!c) return;
+  const t0 = c.currentTime;
+  const osc = c.createOscillator();
+  osc.type = type;
+  osc.frequency.setValueAtTime(freq, t0);
+  if(opts.slideTo) osc.frequency.exponentialRampToValueAtTime(opts.slideTo, t0 + dur);
+  const g = envGain(c, t0, opts.attack ?? 0.01, opts.decay ?? dur*0.4, opts.sustain ?? 0.05, opts.release ?? dur*0.5, opts.peak ?? 0.25);
+  osc.connect(g).connect(c.destination);
+  osc.start(t0);
+  osc.stop(t0 + dur + 0.05);
+}
+function playMelodyEnv(notes, noteDur, type='sine', opts={}){
+  notes.forEach((f, i) => {
+    setTimeout(() => playToneEnv(f, noteDur, type, opts), i * noteDur * 1000 * 0.85);
+  });
+}
+function playClearClickEnv(freq, dur=0.18, harmonicRatio=2, peak=0.18){
+  playToneEnv(freq, dur, 'sine', {attack:0.003, decay:dur*0.25, sustain:0.03, release:dur*0.65, peak});
+  playToneEnv(freq*harmonicRatio, dur*0.7, 'sine', {attack:0.003, decay:dur*0.2, sustain:0.02, release:dur*0.5, peak: peak*0.3});
+}
+
 const sfx = {
   /* click-B: 팝 */
   click(){ playTone(760, 0, 0.055, 'square', 0.11); },
-  /* select-C: 말랑 (부드럽게 살짝 피치가 내려가는 톤) */
-  select(){
-    const ctx = getAudioCtx();
-    if(!ctx) return;
-    const t0 = ctx.currentTime;
-    const osc = ctx.createOscillator();
-    const gain = ctx.createGain();
+  /* reward-C: 통통 (홈 화면 시작하기) */
+  reward(){ playMelodyEnv([392.0, 523.3, 659.3, 784.0], 0.07, 'sine', {peak:0.18}); },
+  /* note-C: 두근 (결과 다시 만들기 / 게임오버 처음부터 다시) */
+  noteAppear(){ playMelodyEnv([659.3, 784.0], 0.1, 'sine', {peak:0.18}); },
+  /* confirm-A: 확정 (메인 액션/다음 단계로 넘어가는 버튼) */
+  confirm(){ playMelodyEnv([523.3, 659.3], 0.13, 'sine', {attack:0.01, decay:0.06, sustain:0.04, release:0.15, peak:0.2}); },
+  /* hover-B: 스윽 (재료/토핑을 제외한 일반 옵션 선택 - 몰드/데코/오븐 온도 등) */
+  hover(){
+    const c = getAudioCtx();
+    if(!c) return;
+    const t0 = c.currentTime;
+    const osc = c.createOscillator();
     osc.type = 'sine';
-    osc.frequency.setValueAtTime(520, t0);
-    osc.frequency.exponentialRampToValueAtTime(400, t0 + 0.11);
-    gain.gain.setValueAtTime(0, t0);
-    gain.gain.linearRampToValueAtTime(0.14, t0 + 0.02);
-    gain.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.14);
-    osc.connect(gain).connect(ctx.destination);
-    osc.start(t0); osc.stop(t0 + 0.16);
+    osc.frequency.setValueAtTime(900, t0);
+    osc.frequency.exponentialRampToValueAtTime(1200, t0 + 0.08);
+    const g = envGain(c, t0, 0.01, 0.024, 0.05, 0.048, 0.08);
+    osc.connect(g).connect(c.destination);
+    osc.start(t0);
+    osc.stop(t0 + 0.13);
   },
+  /* select: 방울 퐁 (재료/토핑 선택) */
+  select(){ playToneEnv(600, 0.12, 'sine', {slideTo:900, attack:0.005, decay:0.08, peak:0.22}); },
+  /* result-fail: 안타까움 (result 화면 실패 평가 전용, 즉시 게임오버의 fail()과는 별개) */
+  resultFail(){ playMelodyEnv([392.0, 349.2, 329.6], 0.3, 'triangle', {peak:0.13}); },
+  /* heartCharge: 하트 충전 (bowl_base→bowl_dough, 틀 frame→shaped 전환) */
+  heartCharge(){ playFreqSequence([{f:300},{f:900,time:0.4}], 0.5, 'sine', 0.15); },
   /* stir-A: 휘휘 (루프) */
   stirStart(){ startStirLoop(); },
   stirStop(){ stopStirLoop(); },
@@ -1556,7 +1636,6 @@ function showHomeTouchButton(){
 }
 
 function enterHomeFromTouch(){
-  sfx.click();
   showHomeStartButton();
   if(bgmEnabled && (!bgmMain || bgmMain.paused)){
     startMainBGM(true, true);
@@ -1646,7 +1725,7 @@ function renderDough(){
   setBowlVariantImages();
   const grid = document.getElementById('dough-grid');
   grid.innerHTML = DOUGH_ITEMS.map(item=>`
-    <button type="button" class="dough-item-card ${state.dough.includes(item.id)?'selected':''}" onclick="toggleDough('${item.id}')">
+    <button type="button" class="dough-item-card ${state.dough.includes(item.id)?'selected':''}" data-dough-id="${item.id}" onclick="toggleDough('${item.id}')">
       <span class="check-badge">✓</span>
       <span class="icon-container">
         <span class="emoji-fallback">${item.emoji}</span>
@@ -1664,27 +1743,98 @@ function renderDough(){
   document.getElementById('dough-confirm-btn').disabled = state.dough.length === 0;
   renderDoughBowl();
 }
+// 반죽 재료 프리뷰 레이어 순서 (반죽 화면 전용)
+const BOWL_LAYER_ORDER = [
+  'egg',
+  'butter',
+  'ketchup',
+  'sourcream',
+  'soysauce',
+  'sugar',
+  'garlic',
+  'vanilla',
+  'flour',
+  'lemon',
+  'chili',
+  'creamcheese'
+];
+
 function renderDoughBowl(){
   const wrap = document.getElementById('dough-bowl-items');
   wrap.innerHTML = state.dough.map(id=>{
     const item = DOUGH_ITEMS.find(d=>d.id===id);
     const z = BOWL_LAYER_ORDER.indexOf(id) + 1;
-    return `<img class="bowl-item-full" src="${ASSET_EVENT}bowl_${id}.png" alt="${t(item.nameKey)}" style="z-index:${z};" onerror="this.style.display='none'">`;
+    return `<img class="bowl-item-full" data-dough-id="${id}" src="${ASSET_EVENT}bowl_${id}.png" alt="${t(item.nameKey)}" style="z-index:${z};" onerror="this.style.display='none'">`;
   }).join('');
 }
+function updateSingleDoughBowlItem(id, shouldShow){
+  const wrap = document.getElementById('dough-bowl-items');
+  if(!wrap) return;
+
+  let img = wrap.querySelector(`.bowl-item-full[data-dough-id="${id}"]`);
+
+  if(shouldShow){
+    if(img) return;
+
+    const item = DOUGH_ITEMS.find(d=>d.id===id);
+    if(!item) return;
+
+    const z = BOWL_LAYER_ORDER.indexOf(id) + 1;
+    img = document.createElement('img');
+    img.className = 'bowl-item-full';
+    img.dataset.doughId = id;
+    img.src = `${ASSET_EVENT}bowl_${id}.png`;
+    img.alt = t(item.nameKey);
+    img.style.zIndex = z;
+    img.onerror = function(){ this.style.display='none'; };
+    wrap.appendChild(img);
+  }else{
+    // 선택 해제한 재료 하나만 제거한다.
+    if(img) img.remove();
+  }
+}
+
 function toggleDough(id){
   sfx.select();
+
   const i = state.dough.indexOf(id);
-  if(i===-1) state.dough.push(id); else state.dough.splice(i,1);
-  renderDough();
+  const selected = i === -1;
+
+  if(selected) state.dough.push(id);
+  else state.dough.splice(i,1);
+
+  // 전체 재료 그리드를 다시 그리지 않는다.
+  // 기존에는 renderDough()가 모든 버튼을 innerHTML로 재생성해서
+  // 클릭할 때 다른 버튼/뒤쪽 텍스트까지 순간적으로 깜박였다.
+  // 클릭한 재료 버튼 하나만 상태를 갱신한다.
+  const card = document.querySelector(`#dough-grid .dough-item-card[data-dough-id="${id}"]`);
+  if(card){
+    card.classList.toggle('selected', selected);
+    const badge = card.querySelector('.check-badge');
+    if(badge) badge.style.display = selected ? 'flex' : 'none';
+  }
+
+  // 선택/해제된 재료의 보울 이미지도 해당 레이어만 갱신한다.
+  updateSingleDoughBowlItem(id, selected);
+
+  // 정답 버튼 상태만 갱신한다.
+  const confirmBtn = document.getElementById('dough-confirm-btn');
+  if(confirmBtn) confirmBtn.disabled = state.dough.length === 0;
 }
 function confirmDough(){
-  sfx.click();
+  sfx.confirm();
   if(state.dough.length===0){ alert(t('alert.dough.empty')); return; }
   const missingMust = DOUGH_ITEMS.filter(i=>i.type==='must' && !state.dough.includes(i.id));
   const includedBad = DOUGH_ITEMS.filter(i=>i.type==='bad' && state.dough.includes(i.id));
   state.doughOK = missingMust.length===0 && includedBad.length===0;
   state.doughFailInfo = {missingMust, includedBad};
+
+  // 재료 선택이 끝나는 순간 최종 반죽 종류를 결정한다.
+  // 간장 포함 → bowl_dough_soy
+  // 케찹 또는 고춧가루 포함 → bowl_dough_red
+  // 둘 다 포함 → red가 우선
+  setBowlVariantImages();
+
   playDoughMixAnimation();
 }
 function playDoughMixAnimation(){
@@ -1695,7 +1845,10 @@ function playDoughMixAnimation(){
     el.style.transition = 'opacity .5s ease';
     el.style.opacity = '0';
   });
-  setTimeout(()=>{ document.getElementById('dough-bowl-batter').classList.add('show'); }, 150);
+  setTimeout(()=>{
+    document.getElementById('dough-bowl-batter').classList.add('show');
+    sfx.heartCharge();
+  }, 150);
   setTimeout(()=>{
     if(btn) btn.disabled = false;
     goTo('meringue');
@@ -1708,7 +1861,7 @@ const MERINGUE_DURATION = 6.0;
 const MERINGUE_THRESHOLD = 90;
 const STIR_SCALE = 3.0;
 const STIR_DECAY = 0.9;
-const STIR_RADIUS = 186;
+const STIR_RADIUS = 181;
 let meringueInterval = null;
 let meringueDone = false;
 let stirActive = false;
@@ -1835,10 +1988,10 @@ function renderMoldPreview(){
     wrap.innerHTML = `<div class="mold-preview-empty"></div>`;
   }
 }
-function selectMold(id){ sfx.select(); state.mold = id; renderMold(); }
+function selectMold(id){ sfx.hover(); state.mold = id; renderMold(); }
 function confirmMold(){
   if(!state.mold) return;
-  sfx.click();
+  sfx.confirm();
   const btn = document.getElementById('mold-confirm');
   if(btn) btn.disabled = true;
   const suffix = moldSuffix(state.mold);
@@ -1881,7 +2034,7 @@ function renderOvenStart(){
   `).join('');
 }
 function chooseTemp(t){
-  sfx.click();
+  sfx.hover();
   if(t !== CORRECT_TEMP){ gameOver('oven_temp'); return; }
   setTimeout(()=>{
     document.getElementById('oven-step-temp').style.display = 'none';
@@ -1917,7 +2070,7 @@ function startOvenAnim(){
 }
 function stopOven(){
   if(ovenStopped) return;
-  sfx.click();
+  sfx.confirm();
   ovenStopped = true;
   cancelAnimationFrame(ovenAnim);
   document.getElementById('oven-stop-btn').style.display = 'none';
@@ -1950,7 +2103,7 @@ function renderTopping(){
 }
 function selectTopping(id){ sfx.select(); state.topping = id; renderTopping(); }
 function confirmTopping(){
-  sfx.click();
+  sfx.confirm();
   if(!state.topping){ alert(t('alert.topping.empty')); return; }
   state.toppingOK = state.topping !== 'strawberry';
   goTo('deco');
@@ -1967,7 +2120,7 @@ function renderDeco(){
   document.getElementById('shared-cake-note-wrap').classList.add('show');
 }
 function selectMessage(id){
-  sfx.select();
+  sfx.hover();
   state.message = id;
   const noteWrap = document.getElementById('shared-cake-note-wrap');
   noteWrap.classList.remove('show');
@@ -1984,10 +2137,6 @@ function showResult(){
   if(sharedCakeLayer) sharedCakeLayer.style.display = 'none';
 
   const overallSuccess = state.doughOK && state.toppingOK;
-
-  // 결과 화면의 기존 이모티콘 연출은 완전히 제거.
-  const oldChar = document.getElementById('char-emoji');
-  if(oldChar) oldChar.style.display = 'none';
 
   // 초기화
   const cakeGroup = document.querySelector('#screen-result .final-cake-group');
@@ -2070,7 +2219,7 @@ function showResult(){
         `<div class="result-speech-main">${stringToHtml(t(successSpeechKey))}</div>` +
         `<div class="result-closing result-closing-success">${stringToHtml(t('result.closing.success'))}</div>`;
     }else{
-      sfx.fail();
+      sfx.resultFail();
       badge.textContent = t('result.fail.badge');
       badge.classList.add('fail');
 
@@ -2161,7 +2310,7 @@ function gameOver(reason){
 }
 /* ---------- 재시작 ---------- */
 function retryFromResult(){
-  sfx.click();
+  sfx.noteAppear();
   stopResultBGM();
   restoreMainBGMVolume();
   resetState();
@@ -2184,7 +2333,7 @@ function retryFromResult(){
 }
 
 function retryFromGameOver(){
-  sfx.click();
+  sfx.noteAppear();
   // bgm_main은 Game Over 동안에도 계속 재생 중이므로 처음부터 재시작하지 않는다.
   restoreMainBGMVolume();
   resetState();
