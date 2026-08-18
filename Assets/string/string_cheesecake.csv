@@ -19,27 +19,27 @@ dough.ingredient.garlic,반죽 재료,다진마늘,Garlic
 dough.ingredient.soysauce,반죽 재료,간장,Soy Sauce
 dough.ingredient.ketchup,반죽 재료,케찹,Ketchup
 meringue.title,머랭,거품기를 빠른 속도로 빙글빙글 돌리자!,Whisk quickly in circles!
-meringue.notice,머랭,시간 안에 머랭을 만들지 못하면 실패!,"If you don’t whip the meringue in time, you’ll fail!"
+meringue.notice,머랭,시간 안에 머랭을 만들지 못하면 실패!,Whip the meringue in time or you’ll fail!
 mold.title,틀 선택,케이크 틀을 골라보자!,Let’s pick a cake pan!
 mold.round,틀,원형 틀,Round Pan
 mold.heart,틀,하트 틀,Heart Pan
 mold.cat,틀,고양이 틀,Cat Pan
 mold.confirm,틀 선택,이 틀로 할래!,Confirm!
 oven.temperature.title,오븐,몇 도로 구워야 할까?,What temperature should I use?
-oven.timing.title,오븐,타이밍을 잘 맞춰서 케이크를 꺼내야 해!,Get the timing right and take the cake out of the oven!
+oven.timing.title,오븐,타이밍을 잘 맞춰서 케이크를 꺼내야 해!,Time it right and take it out!
 oven.stop,오븐,정지!,Stop!
-topping.title,토핑,흐음… 리오가 무슨 과일을 좋아하려나?,Hmm… I wonder what kind of fruit Leo likes.
+topping.title,토핑,흐음… 리오가 무슨 토핑을 좋아하려나?,Hmm… I wonder what Leo likes on his cake.
 topping.strawberry,토핑,딸기,Strawberry
 topping.mango,토핑,망고,Mango
 topping.cherry,토핑,체리,Cherry
-topping.lotus,토핑,로투스,Lotus Biscoff
+topping.lotus,토핑,로투스,Lotus
 topping.confirm,토핑,토핑 완성!,Topping’s ready!
-deco.title,장식,마지막으로 리오에게 하고 싶은 말을 담는 거야.,"Finally, choose what you want to say to Leo!"
-deco.message.1,장식 메시지,생일 축하해! 🎉☃️,Happy Birthday! 🎉☃️
-deco.message.2,장식 메시지,오늘도 고마워🌌,Thx as always! 🌌
+deco.title,장식,마지막으로 리오에게 하고 싶은 말을 담는 거야.,Finally… a little message for Leo.
+deco.message.1,장식 메시지,생일 축하해! 🎉☃️,Happy Birthday!☃️
+deco.message.2,장식 메시지,오늘도 고마워 🌌,Thx as always!🌌
 deco.message.3,장식 메시지,사랑해~❤️,Love ya~ ❤️
-deco.message.4,장식 메시지,건강히 오래오래⭐,Stay healthy! ⭐
-deco.message.5,장식 메시지,행복하자🍀🦎,Be happy! 🍀🦎
+deco.message.4,장식 메시지,건강히 오래오래⭐,Stay healthy!⭐
+deco.message.5,장식 메시지,늘 행복하자!🍀,Be happy!🍀🦎
 deco.confirm,장식,장식 완료!,Complete!
 result.success.badge,결과,완벽해!,Perfect!
 result.fail.badge,결과,뭔가 아쉬워,Failed!
