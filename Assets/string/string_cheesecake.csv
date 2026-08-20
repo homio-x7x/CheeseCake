@@ -49,14 +49,16 @@ I just got an idea… Should I release a song called “Cheek Cake”?"
 result.success.speech.2,결과 성공,반죽에 토핑까지 딱 내가 좋아하는 치즈케이크잖아!,"From the batter to the toppings, this is exactly the kind of cheesecake I love!"
 result.success.speech.3,결과 성공,"고마워! 사실 아침에 일어나서 치즈케이크를 
 안 먹으면 일상생활이 불가능할 정도야😁","“Honestly, if I don’t have cheesecake for breakfast, I can barely function.”"
-result.fail.doughAndTopping.speech,결과 실패,"어... 반죽 맛이 좀 이상한데? 
-그리고 딸기는... 줄게 나 딸기 안먹어ㅋㅋ","“Uh… the batter tastes a little weird. 
-And the strawberry… you can have it. I don’t eat strawberries, lol.”"
-result.fail.doughAndTopping.description,결과 실패,"반죽과 토핑, 둘 다 아쉬웠던 것 같아.",“The batter and the topping both feel like they’re missing something.”
-result.fail.dough.speech,결과 실패,음... 이 반죽 맛이 좀 낯선데?,“Hmm… there’s something a little strange about this batter.”
-result.fail.dough.description,결과 실패,정성은 느껴지지만 반죽에서 아쉬움이 남았나 봐.,"“I can tell you put a lot of love into it, but the batter could’ve been better.”"
-result.fail.topping.speech,결과 실패,리오깅 입맛 어려워 딸기 안머거 🍓😥,Baby Leo doesn’t eat strawberries. 🍓😥
-result.fail.topping.description,결과 실패,앗! 토핑을 잘못 선택했어. 다른 건 다 좋았는데!,"“Ah! I picked the wrong topping. Everything else was perfect, though!”"
+result.fail.doughAndTopping.speech,결과 실패,"어... <span class=""result-highlight"">반죽</span> 맛이 좀 이상한데?
+그리고 <span class=""result-highlight"">딸기</span>는... 줄게 나 <span class=""result-highlight"">딸기</span> 안먹어ㅋㅋ","Uh… the <span class=""result-highlight"">batter</span> tastes a little weird.
+And the <span class=""result-highlight"">strawberry</span>… you can have it. I don’t eat <span class=""result-highlight"">strawberries</span>, lol."
+result.fail.doughAndTopping.description,결과 실패,"<span class=""result-highlight"">반죽</span>과 <span class=""result-highlight"">토핑</span>, 둘 다 아쉬웠던 것 같아.","The <span class=""result-highlight"">batter</span> and the <span class=""result-highlight"">topping</span> both feel like they’re missing something."
+result.fail.dough.speech,결과 실패,"음... 이 <span class=""result-highlight"">반죽</span> 맛이 좀 낯선데?","Hmm… there’s something a little strange about this <span class=""result-highlight"">batter</span>."
+result.fail.dough.description,결과 실패,"정성은 느껴지지만 <span class=""result-highlight"">반죽</span>에서 아쉬움이 남았나 봐.","I can tell you put a lot of love into it, but the <span class=""result-highlight"">batter</span> could’ve been better."
+result.fail.topping.speech,결과 실패,"리오깅 입맛 어려워 <span class=""result-highlight"">딸기</span> 안머거 🍓😥","Baby Leo doesn’t eat <span class=""result-highlight"">strawberries</span>. 🍓😥"
+result.fail.topping.description,결과 실패,"앗! <span class=""result-highlight"">토핑</span>을 잘못 선택했어. 다른 건 다 좋았는데!","Ah! I picked the wrong <span class=""result-highlight"">topping</span>. Everything else was perfect, though!"
+result.fail.dough.bad,,"어딘가 <span class=""result-highlight"">{ingredients}</span> 맛이 나는 것 같아...","Something tastes a little like <span class=""result-highlight"">{ingredients}</span>..."
+result.fail.dough.missing,,"그리고 <span class=""result-highlight"">{ingredients}</span> 빠져서 그런지 맛의 균형이 안 맞아.","Maybe the flavor is off because <span class=""result-highlight"">{ingredients}</span> is missing."
 result.closing.success,결과,선물 대성공! 리오와 케이크를 맛있게 나누어 먹었다!,"A huge success! I shared the cake with Leo, and we both loved it!"
 result.closing.fail,결과,그래도 착한 리오는 케이크를 맛있게 먹어주었다!,"Even so, sweet Leo still enjoyed the cake!"
 result.retry,결과,다시 만들기,Make Another
