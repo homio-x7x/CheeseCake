@@ -1,7 +1,7 @@
 Key,화면,string_kr,string_en
 home.title,Home,리오의 생일이 다가왔어!,Leo Day is coming up!
-home.description,Home,"8월 22일은 리오의 스물 다섯 번째 생일🎉
-생일 선물로 치즈케이크를 만들어 보자!","August 22 is Leo’s 25th birthday! 🎂
+home.description,Home,"8월 22일은 리오의 스물다섯 살 생일이야🎉
+생일 선물로 치즈케이크를 만들어 보자!","August 22 is Leo’s 24th birthday! 🎂
 Let’s make him a cheesecake for his birthday!"
 home.start,Home,시작하기,✨ Start ✨
 dough.title,반죽,반죽에 필요한 재료를 넣어보자!,Let’s add the ingredients for the batter!
@@ -42,7 +42,7 @@ deco.message.4,장식 메시지,건강히 오래오래⭐,Stay healthy!⭐
 deco.message.5,장식 메시지,늘 행복하자!🍀,Be happy!🍀🦎
 deco.confirm,장식,장식 완료!,Complete!
 result.success.badge,결과,완벽해!,Perfect!
-result.fail.badge,결과,뭔가 아쉬워,Failed!
+result.fail.badge,결과,뭔가 아쉬워,Could be better
 result.success.speech.1,결과 성공,"우와... 이거 완전 내 취향이야! 🥹
 영감이 떠오르는데 치크케이크라는 노래 낼까?","“Wow… this is so me! 🥹
 I just got an idea… Should I release a song called “Cheek Cake”?"
